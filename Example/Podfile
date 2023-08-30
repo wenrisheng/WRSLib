@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WRSLib_Example' do
+#  pod 'WRSLib', :path => '../'
+  pod 'WRSLib/NetworkSpeed', :path => '../'
+  pod 'WRSLib/NetworkType', :path => '../'
+  target 'WRSLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

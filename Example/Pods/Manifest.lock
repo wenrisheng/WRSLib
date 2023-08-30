@@ -1,0 +1,25 @@
+PODS:
+  - Reachability (3.2)
+  - WRSLib/NetworkSpeed (0.0.1):
+    - Reachability (~> 3.2)
+  - WRSLib/NetworkType (0.0.1)
+
+DEPENDENCIES:
+  - WRSLib/NetworkSpeed (from `../`)
+  - WRSLib/NetworkType (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+
+EXTERNAL SOURCES:
+  WRSLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  WRSLib: 77059ff7775642421107b84529e3feff8d255918
+
+PODFILE CHECKSUM: 5234971d618600257fd5923fff6aff86f0d36ce7
+
+COCOAPODS: 1.12.0

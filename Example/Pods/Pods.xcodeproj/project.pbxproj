@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052F3ECD244E4B8EFE3FCB8B6DAA34B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */; };
+		3DB85E6400D1C86C2D45A7BFDC35742E /* Pods-WRSLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F08734DF838330034E84405D8C9E7B32 /* Pods-WRSLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44F4F19AD4287696C5F58310CA90D384 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7561A86BD3EFB77ACDBF78B1657902BF /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BFB8ED9076CA34B270149536A793214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		7AE66A74BCDC5DF7A70346444C26BB53 /* Pods-WRSLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 628FEBBABAB49FEBE64B5C484D5E80E3 /* Pods-WRSLib_Example-dummy.m */; };
+		81F23D8C6867F69D8512A88CF8A98F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		860033FFC1981CBEE510A489A3AD73D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		8DE19395A7F8F8200080DEEE4C7A257F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9487795E890AAC4F9EB14CF011926214 /* Reachability.m */; };
+		C0F80CA1759C525724DC32E4A9518264 /* WRSLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ED06EA95A91C20A3B3728D5111F544 /* WRSLib-dummy.m */; };
+		C3296E1E1BCEAEE6294A3FE8562C0EFC /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C17EA3A69CB4BBBA3B676CBD70A135 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AC3A6FB7C97EA1C3A2DFB8B6F3A411 /* NetworkType.m in Sources */ = {isa = PBXBuildFile; fileRef = 602191D726844614AD143BEF5B16E4D5 /* NetworkType.m */; };
+		D7608264261292B60B6F6F6D738B1707 /* NetWorkSpeedMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6759C2A19EDD38703FF84201FF65784F /* NetWorkSpeedMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD995B28C6354A42CF45466CCE4CB26 /* WRSLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB306938C612654D744DBCD642F4701F /* WRSLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECDF9D7AD8D910876CE2FA527B519E2 /* NetWorkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 849ED72E5CE94A06F88BE9EAA03238B9 /* NetWorkSpeedMonitor.m */; };
+		E2135621204107C9C4748667494DC973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		E3590174AE5F9427427C9A3CD2DF4245 /* Pods-WRSLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D03255E722629824AEEE9468BBF51A9D /* Pods-WRSLib_Tests-dummy.m */; };
+		E78E653285F976E639EF8B528B4CC508 /* NetworkType.h in Headers */ = {isa = PBXBuildFile; fileRef = 504213216CC80BF27C0B5BE6F5FB7065 /* NetworkType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E811941E2ACD5310D24D107FA8FCD6FA /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0D231DB29D3B6B558743C246A76299 /* Reachability-dummy.m */; };
+		EE02CEC434EE3D174193E18A2CB1BF45 /* Pods-WRSLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D3BE83458D7241899BE86004AC141B /* Pods-WRSLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C2E14D3FE298FB915996A235E4C90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+		2823F830AE543149B64037FCF22C720E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162F4F8DB8C92F59A89A67C1E70F050B;
+			remoteInfo = WRSLib;
+		};
+		71313E67BAF146C7BDBDE3E1C0941D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+		B24C60666A95E86BEE5121231E2ACA97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A4BCD76C14EFE4475A930ECA2A7F75;
+			remoteInfo = "Pods-WRSLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10353CDCCE9E96BBE7D80B0CBB6898C4 /* Pods-WRSLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		13527F6A88EDF09A28F8999A2C72E8F7 /* Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.release.xcconfig; sourceTree = "<group>"; };
+		18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		26A578234552BF4BD876E9FF8D26DA87 /* Pods-WRSLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRSLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		272C634F8FBFE6482E794E8F83F5C02F /* WRSLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRSLib.release.xcconfig; sourceTree = "<group>"; };
+		2ADEA2CF1ED1CDD085FC403421B4EAC7 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
+		2C958F384253A3D636F3779D5CB72AFB /* WRSLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRSLib-prefix.pch"; sourceTree = "<group>"; };
+		30453446C5310EA114B978294858C9A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C8E307F697EA38B5FBDC2131AD1A982 /* Pods-WRSLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48860FE69C74DB2A8E6369A7E0B49841 /* WRSLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WRSLib; path = WRSLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504213216CC80BF27C0B5BE6F5FB7065 /* NetworkType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkType.h; path = WRSLib/Classes/NetworkType/NetworkType.h; sourceTree = "<group>"; };
+		5196135D75D59F7A1D25B4F6C047E326 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		55A6EBDB1AC90FC1DC35EBC60C3B9260 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5635D289B8D8C8BDCF498E8DD5AFAE13 /* WRSLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WRSLib-Info.plist"; sourceTree = "<group>"; };
+		5DBCBEFE2FD75073B72BD0DE64CD6B26 /* Pods-WRSLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRSLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		602191D726844614AD143BEF5B16E4D5 /* NetworkType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkType.m; path = WRSLib/Classes/NetworkType/NetworkType.m; sourceTree = "<group>"; };
+		628FEBBABAB49FEBE64B5C484D5E80E3 /* Pods-WRSLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRSLib_Example-dummy.m"; sourceTree = "<group>"; };
+		6759C2A19EDD38703FF84201FF65784F /* NetWorkSpeedMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetWorkSpeedMonitor.h; path = WRSLib/Classes/NetworkSpeed/NetWorkSpeedMonitor.h; sourceTree = "<group>"; };
+		6C791A7DE3C4EC634F06708C4CC14345 /* Pods-WRSLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRSLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7561A86BD3EFB77ACDBF78B1657902BF /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		75D3BE83458D7241899BE86004AC141B /* Pods-WRSLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRSLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7791115506E205C2AAE8B03ABBBB5575 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		7AFEB93660CD9EE62923932CEAF4B5D7 /* Pods-WRSLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		849ED72E5CE94A06F88BE9EAA03238B9 /* NetWorkSpeedMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetWorkSpeedMonitor.m; path = WRSLib/Classes/NetworkSpeed/NetWorkSpeedMonitor.m; sourceTree = "<group>"; };
+		87B9C467425FEAE1270581848C83FD5B /* Pods-WRSLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSLib_Example-Info.plist"; sourceTree = "<group>"; };
+		93ED06EA95A91C20A3B3728D5111F544 /* WRSLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WRSLib-dummy.m"; sourceTree = "<group>"; };
+		9487795E890AAC4F9EB14CF011926214 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10C7332A63C2431E17A408D6669FEED /* WRSLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRSLib.debug.xcconfig; sourceTree = "<group>"; };
+		A3B9BD78F61B7DFE2984A2E345047413 /* Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.debug.xcconfig; sourceTree = "<group>"; };
+		AB0EB18E91FC00E1962C0E822D0E7FF3 /* Pods-WRSLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WRSLib_Example"; path = Pods_WRSLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B7F1BEA414D2389FB4C7919B959282 /* Pods-WRSLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRSLib_Tests.modulemap"; sourceTree = "<group>"; };
+		B6C17EA3A69CB4BBBA3B676CBD70A135 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B6CF89745C2E2B0AE2742133D390C810 /* Pods-WRSLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA77A8D5BA99408EE81111E423BC16CE /* WRSLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WRSLib.modulemap; sourceTree = "<group>"; };
+		BB388037E903D0FE276F34816C3904CC /* Pods-WRSLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1D6F98CF36204EE6EB1566997F97EBC /* Pods-WRSLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WRSLib_Tests"; path = Pods_WRSLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD681A39710155E4B8108CAD439D54B0 /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
+		D03255E722629824AEEE9468BBF51A9D /* Pods-WRSLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRSLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		D5256802C0452A80A5EE1C6968A92129 /* WRSLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WRSLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB306938C612654D744DBCD642F4701F /* WRSLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRSLib-umbrella.h"; sourceTree = "<group>"; };
+		ED0D231DB29D3B6B558743C246A76299 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		F08734DF838330034E84405D8C9E7B32 /* Pods-WRSLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRSLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		F09D81C6236DC4590A3860DCB9C77412 /* Pods-WRSLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRSLib_Example.modulemap"; sourceTree = "<group>"; };
+		F6E98AE7D05B48E8CC8CD82C5E6720B6 /* Pods-WRSLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA0A8E99E95A0C8DD161FE2B7646601 /* Pods-WRSLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20DFA7D3AAF7B06FD8CD583D52206B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFB8ED9076CA34B270149536A793214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33648C04C99495FD14E89BD1969F56FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860033FFC1981CBEE510A489A3AD73D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EBB2EBF47613FD659F77CB43FF7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2135621204107C9C4748667494DC973 /* Foundation.framework in Frameworks */,
+				052F3ECD244E4B8EFE3FCB8B6DAA34B4 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D105C5DD9C02566215D95FFC2EAA7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F23D8C6867F69D8512A88CF8A98F68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051B34ABBD7C7CAC32CBEC5A1D8F1148 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA77A8D5BA99408EE81111E423BC16CE /* WRSLib.modulemap */,
+				93ED06EA95A91C20A3B3728D5111F544 /* WRSLib-dummy.m */,
+				5635D289B8D8C8BDCF498E8DD5AFAE13 /* WRSLib-Info.plist */,
+				2C958F384253A3D636F3779D5CB72AFB /* WRSLib-prefix.pch */,
+				EB306938C612654D744DBCD642F4701F /* WRSLib-umbrella.h */,
+				A10C7332A63C2431E17A408D6669FEED /* WRSLib.debug.xcconfig */,
+				272C634F8FBFE6482E794E8F83F5C02F /* WRSLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WRSLib";
+			sourceTree = "<group>";
+		};
+		0D18997C08A23BA1C3B3B44119B213C5 /* NetworkSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				6759C2A19EDD38703FF84201FF65784F /* NetWorkSpeedMonitor.h */,
+				849ED72E5CE94A06F88BE9EAA03238B9 /* NetWorkSpeedMonitor.m */,
+			);
+			name = NetworkSpeed;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A651368EF97F3D9B9BAA0C0FD537DD81 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BDC8D0FC5EC44267940948C2EFB4EFC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D282A47FBEED4E15DE861775BE205677 /* WRSLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2F7A932B2AACEC39AAFFC5F15D7EFF00 /* Pods-WRSLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F09D81C6236DC4590A3860DCB9C77412 /* Pods-WRSLib_Example.modulemap */,
+				6C791A7DE3C4EC634F06708C4CC14345 /* Pods-WRSLib_Example-acknowledgements.markdown */,
+				FAA0A8E99E95A0C8DD161FE2B7646601 /* Pods-WRSLib_Example-acknowledgements.plist */,
+				628FEBBABAB49FEBE64B5C484D5E80E3 /* Pods-WRSLib_Example-dummy.m */,
+				26A578234552BF4BD876E9FF8D26DA87 /* Pods-WRSLib_Example-frameworks.sh */,
+				87B9C467425FEAE1270581848C83FD5B /* Pods-WRSLib_Example-Info.plist */,
+				F08734DF838330034E84405D8C9E7B32 /* Pods-WRSLib_Example-umbrella.h */,
+				F6E98AE7D05B48E8CC8CD82C5E6720B6 /* Pods-WRSLib_Example.debug.xcconfig */,
+				3C8E307F697EA38B5FBDC2131AD1A982 /* Pods-WRSLib_Example.release.xcconfig */,
+			);
+			name = "Pods-WRSLib_Example";
+			path = "Target Support Files/Pods-WRSLib_Example";
+			sourceTree = "<group>";
+		};
+		2F9AB0C898BA890078AE587221644B34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A932B2AACEC39AAFFC5F15D7EFF00 /* Pods-WRSLib_Example */,
+				E930E986CFA58A30176D59C3FF21C38A /* Pods-WRSLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33469521B908F3ECCC8C0DADFB35FC7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E39ECD82C5455BA74436D127F90309A /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B240873981D464DF07C73D13AD2AF2D /* NetworkType */ = {
+			isa = PBXGroup;
+			children = (
+				504213216CC80BF27C0B5BE6F5FB7065 /* NetworkType.h */,
+				602191D726844614AD143BEF5B16E4D5 /* NetworkType.m */,
+			);
+			name = NetworkType;
+			sourceTree = "<group>";
+		};
+		7B86AA6489EAB044E20AD465BE53CDD5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5196135D75D59F7A1D25B4F6C047E326 /* LICENSE */,
+				55A6EBDB1AC90FC1DC35EBC60C3B9260 /* README.md */,
+				D5256802C0452A80A5EE1C6968A92129 /* WRSLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8E39ECD82C5455BA74436D127F90309A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B6C17EA3A69CB4BBBA3B676CBD70A135 /* Reachability.h */,
+				9487795E890AAC4F9EB14CF011926214 /* Reachability.m */,
+				A28CE785BCDC1553568F32CB31B3B314 /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		A28CE785BCDC1553568F32CB31B3B314 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ADEA2CF1ED1CDD085FC403421B4EAC7 /* Reachability.modulemap */,
+				ED0D231DB29D3B6B558743C246A76299 /* Reachability-dummy.m */,
+				CD681A39710155E4B8108CAD439D54B0 /* Reachability-Info.plist */,
+				7791115506E205C2AAE8B03ABBBB5575 /* Reachability-prefix.pch */,
+				7561A86BD3EFB77ACDBF78B1657902BF /* Reachability-umbrella.h */,
+				A3B9BD78F61B7DFE2984A2E345047413 /* Reachability.debug.xcconfig */,
+				13527F6A88EDF09A28F8999A2C72E8F7 /* Reachability.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		A651368EF97F3D9B9BAA0C0FD537DD81 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				30453446C5310EA114B978294858C9A5 /* Foundation.framework */,
+				18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2BDC8D0FC5EC44267940948C2EFB4EFC /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				33469521B908F3ECCC8C0DADFB35FC7B /* Pods */,
+				E85C67E0E3D42975A032A15F09B2521C /* Products */,
+				2F9AB0C898BA890078AE587221644B34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D282A47FBEED4E15DE861775BE205677 /* WRSLib */ = {
+			isa = PBXGroup;
+			children = (
+				0D18997C08A23BA1C3B3B44119B213C5 /* NetworkSpeed */,
+				3B240873981D464DF07C73D13AD2AF2D /* NetworkType */,
+				7B86AA6489EAB044E20AD465BE53CDD5 /* Pod */,
+				051B34ABBD7C7CAC32CBEC5A1D8F1148 /* Support Files */,
+			);
+			name = WRSLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E85C67E0E3D42975A032A15F09B2521C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EB18E91FC00E1962C0E822D0E7FF3 /* Pods-WRSLib_Example */,
+				C1D6F98CF36204EE6EB1566997F97EBC /* Pods-WRSLib_Tests */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */,
+				48860FE69C74DB2A8E6369A7E0B49841 /* WRSLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E930E986CFA58A30176D59C3FF21C38A /* Pods-WRSLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7F1BEA414D2389FB4C7919B959282 /* Pods-WRSLib_Tests.modulemap */,
+				5DBCBEFE2FD75073B72BD0DE64CD6B26 /* Pods-WRSLib_Tests-acknowledgements.markdown */,
+				BB388037E903D0FE276F34816C3904CC /* Pods-WRSLib_Tests-acknowledgements.plist */,
+				D03255E722629824AEEE9468BBF51A9D /* Pods-WRSLib_Tests-dummy.m */,
+				7AFEB93660CD9EE62923932CEAF4B5D7 /* Pods-WRSLib_Tests-Info.plist */,
+				75D3BE83458D7241899BE86004AC141B /* Pods-WRSLib_Tests-umbrella.h */,
+				B6CF89745C2E2B0AE2742133D390C810 /* Pods-WRSLib_Tests.debug.xcconfig */,
+				10353CDCCE9E96BBE7D80B0CBB6898C4 /* Pods-WRSLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-WRSLib_Tests";
+			path = "Target Support Files/Pods-WRSLib_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F44603758E2F1AD4EF3CD47FFC23238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3296E1E1BCEAEE6294A3FE8562C0EFC /* Reachability.h in Headers */,
+				44F4F19AD4287696C5F58310CA90D384 /* Reachability-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477EAEE8E0EEC25DD173C75B7C22017C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE02CEC434EE3D174193E18A2CB1BF45 /* Pods-WRSLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BA4D6378C533C5A42CC3675FCB876C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB85E6400D1C86C2D45A7BFDC35742E /* Pods-WRSLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83CB1FD07931926486C9921BE391519 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7608264261292B60B6F6F6D738B1707 /* NetWorkSpeedMonitor.h in Headers */,
+				E78E653285F976E639EF8B528B4CC508 /* NetworkType.h in Headers */,
+				DCD995B28C6354A42CF45466CCE4CB26 /* WRSLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		162F4F8DB8C92F59A89A67C1E70F050B /* WRSLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BA4878BBAF83B559ACAB37505F3A26 /* Build configuration list for PBXNativeTarget "WRSLib" */;
+			buildPhases = (
+				C83CB1FD07931926486C9921BE391519 /* Headers */,
+				D05D798E27BA964483A18CA6423C1973 /* Sources */,
+				20DFA7D3AAF7B06FD8CD583D52206B8F /* Frameworks */,
+				92592D89A25C801AC10A779848E93EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163F1490E51798920ADD3D4E23604409 /* PBXTargetDependency */,
+			);
+			name = WRSLib;
+			productName = WRSLib;
+			productReference = 48860FE69C74DB2A8E6369A7E0B49841 /* WRSLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F6207968E294A79736DC5611893AF9D /* Pods-WRSLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392BBB879C91DA878A96BDA7B16B7D0C /* Build configuration list for PBXNativeTarget "Pods-WRSLib_Tests" */;
+			buildPhases = (
+				477EAEE8E0EEC25DD173C75B7C22017C /* Headers */,
+				A64C21BF6571C3FC671E06F0A8937016 /* Sources */,
+				D105C5DD9C02566215D95FFC2EAA7EEA /* Frameworks */,
+				416B278093DB4E158922DF4F551B5ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2352C6D36E8C53B71D62C6E84248B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-WRSLib_Tests";
+			productName = Pods_WRSLib_Tests;
+			productReference = C1D6F98CF36204EE6EB1566997F97EBC /* Pods-WRSLib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3A4BCD76C14EFE4475A930ECA2A7F75 /* Pods-WRSLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11BEB00082D15FEA42A70E0DD5CC783 /* Build configuration list for PBXNativeTarget "Pods-WRSLib_Example" */;
+			buildPhases = (
+				76BA4D6378C533C5A42CC3675FCB876C /* Headers */,
+				BF57BEE991DE4D3DFC6E2C93F6105852 /* Sources */,
+				33648C04C99495FD14E89BD1969F56FE /* Frameworks */,
+				133937D323291C7535F05FB715B5BB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90CFAF5677B5567846F719AB054361E0 /* PBXTargetDependency */,
+				10C647C80E3EA1A6E18D094CB64CA248 /* PBXTargetDependency */,
+			);
+			name = "Pods-WRSLib_Example";
+			productName = Pods_WRSLib_Example;
+			productReference = AB0EB18E91FC00E1962C0E822D0E7FF3 /* Pods-WRSLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0933C293D6F3585115F511022948B4 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				3F44603758E2F1AD4EF3CD47FFC23238 /* Headers */,
+				48DBF8F317733652C8AE9B33B64618BC /* Sources */,
+				4B3EBB2EBF47613FD659F77CB43FF7FD /* Frameworks */,
+				C5A3257F5DD43790266FA0EACF2E73B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E85C67E0E3D42975A032A15F09B2521C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A4BCD76C14EFE4475A930ECA2A7F75 /* Pods-WRSLib_Example */,
+				6F6207968E294A79736DC5611893AF9D /* Pods-WRSLib_Tests */,
+				CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */,
+				162F4F8DB8C92F59A89A67C1E70F050B /* WRSLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133937D323291C7535F05FB715B5BB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B278093DB4E158922DF4F551B5ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92592D89A25C801AC10A779848E93EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A3257F5DD43790266FA0EACF2E73B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DBF8F317733652C8AE9B33B64618BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE19395A7F8F8200080DEEE4C7A257F /* Reachability.m in Sources */,
+				E811941E2ACD5310D24D107FA8FCD6FA /* Reachability-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64C21BF6571C3FC671E06F0A8937016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3590174AE5F9427427C9A3CD2DF4245 /* Pods-WRSLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF57BEE991DE4D3DFC6E2C93F6105852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE66A74BCDC5DF7A70346444C26BB53 /* Pods-WRSLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05D798E27BA964483A18CA6423C1973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECDF9D7AD8D910876CE2FA527B519E2 /* NetWorkSpeedMonitor.m in Sources */,
+				D0AC3A6FB7C97EA1C3A2DFB8B6F3A411 /* NetworkType.m in Sources */,
+				C0F80CA1759C525724DC32E4A9518264 /* WRSLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10C647C80E3EA1A6E18D094CB64CA248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WRSLib;
+			target = 162F4F8DB8C92F59A89A67C1E70F050B /* WRSLib */;
+			targetProxy = 2823F830AE543149B64037FCF22C720E /* PBXContainerItemProxy */;
+		};
+		163F1490E51798920ADD3D4E23604409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = 71313E67BAF146C7BDBDE3E1C0941D46 /* PBXContainerItemProxy */;
+		};
+		2A2352C6D36E8C53B71D62C6E84248B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WRSLib_Example";
+			target = A3A4BCD76C14EFE4475A930ECA2A7F75 /* Pods-WRSLib_Example */;
+			targetProxy = B24C60666A95E86BEE5121231E2ACA97 /* PBXContainerItemProxy */;
+		};
+		90CFAF5677B5567846F719AB054361E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = 22C2E14D3FE298FB915996A235E4C90F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		060DA47D7426FAFD16132711BE5EDD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10C7332A63C2431E17A408D6669FEED /* WRSLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WRSLib/WRSLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WRSLib/WRSLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WRSLib/WRSLib.modulemap";
+				PRODUCT_MODULE_NAME = WRSLib;
+				PRODUCT_NAME = WRSLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B7B2D56C1C40363C7A9BA6DD4BABDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272C634F8FBFE6482E794E8F83F5C02F /* WRSLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WRSLib/WRSLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WRSLib/WRSLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WRSLib/WRSLib.modulemap";
+				PRODUCT_MODULE_NAME = WRSLib;
+				PRODUCT_NAME = WRSLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DF08F4D398E47EAD08D5153FED90A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B9BD78F61B7DFE2984A2E345047413 /* Reachability.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30D1E56E749D5ACF1D03613D621AD790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13527F6A88EDF09A28F8999A2C72E8F7 /* Reachability.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51AC592B8E641B5A3C7CAC46BE0B8385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10353CDCCE9E96BBE7D80B0CBB6898C4 /* Pods-WRSLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSLib_Tests/Pods-WRSLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSLib_Tests/Pods-WRSLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD1A332006E64DE445D819BD44B10DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8E307F697EA38B5FBDC2131AD1A982 /* Pods-WRSLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSLib_Example/Pods-WRSLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSLib_Example/Pods-WRSLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF418BFC6F41B9FDAC6296F9C10670F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CF89745C2E2B0AE2742133D390C810 /* Pods-WRSLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSLib_Tests/Pods-WRSLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSLib_Tests/Pods-WRSLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7F7CB9A1D42E7BF9701DBBE93AB2636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E98AE7D05B48E8CC8CD82C5E6720B6 /* Pods-WRSLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSLib_Example/Pods-WRSLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSLib_Example/Pods-WRSLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392BBB879C91DA878A96BDA7B16B7D0C /* Build configuration list for PBXNativeTarget "Pods-WRSLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF418BFC6F41B9FDAC6296F9C10670F5 /* Debug */,
+				51AC592B8E641B5A3C7CAC46BE0B8385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0933C293D6F3585115F511022948B4 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF08F4D398E47EAD08D5153FED90A55 /* Debug */,
+				30D1E56E749D5ACF1D03613D621AD790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11BEB00082D15FEA42A70E0DD5CC783 /* Build configuration list for PBXNativeTarget "Pods-WRSLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F7CB9A1D42E7BF9701DBBE93AB2636 /* Debug */,
+				BD1A332006E64DE445D819BD44B10DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BA4878BBAF83B559ACAB37505F3A26 /* Build configuration list for PBXNativeTarget "WRSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060DA47D7426FAFD16132711BE5EDD40 /* Debug */,
+				0B7B2D56C1C40363C7A9BA6DD4BABDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

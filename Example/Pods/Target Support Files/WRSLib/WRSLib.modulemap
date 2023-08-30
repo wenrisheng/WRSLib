@@ -1,0 +1,6 @@
+framework module WRSLib {
+  umbrella header "WRSLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

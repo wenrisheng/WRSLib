@@ -1,0 +1,36 @@
+{
+  "name": "WRSLib",
+  "version": "0.0.1",
+  "summary": "A short description of WRSLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jack/WRSLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jack": "252797991@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jack/WRSLib.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "subspecs": [
+    {
+      "name": "NetworkSpeed",
+      "source_files": "WRSLib/Classes/NetworkSpeed/**/*",
+      "dependencies": {
+        "Reachability": [
+          "~> 3.2"
+        ]
+      }
+    },
+    {
+      "name": "NetworkType",
+      "source_files": "WRSLib/Classes/NetworkType/**/*"
+    }
+  ]
+}
